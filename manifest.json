@@ -1,0 +1,62 @@
+{
+  "background_color": "#ffffff",
+  "description": "Online UniConverter (Media.io) — Free online tools with free video converter & audio converter converting files online free and it can compress video/audio/image files to save space, and edit videos.",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "Media.io",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Media.io",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/imagesV4/pwa-logo-36.png",
+      "type": "image/png",
+      "sizes": "36x36",
+      "purpose": "any"
+    },
+    {
+      "src": "/imagesV4/pwa-logo-48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "any"
+    },
+    {
+      "src": "/imagesV4/pwa-logo-72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    },
+    {
+      "src": "/imagesV4/pwa-logo-96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any"
+    },
+    {
+      "src": "/imagesV4/pwa-logo-144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "/imagesV4/pwa-logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/imagesV4/pwa-logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/imagesV4/pwa-logo-maskable.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    }
+  ]
+}

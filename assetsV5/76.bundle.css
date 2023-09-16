@@ -1,0 +1,220 @@
+.ko-btn[data-v-5216ca16] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px
+}
+
+.renew-btn[data-v-5216ca16] {
+    background: linear-gradient(90deg, #ff8642, #ff6262 52.5%, #ff56b1);
+    color: #fff
+}
+
+.renew-btn[data-v-5216ca16]:hover {
+    background: linear-gradient(0deg, rgba(102, 92, 153, .08), rgba(102, 92, 153, .08)), linear-gradient(90deg, #ff8642, #ff6262 52.5%, #ff56b1)
+}
+
+.renew-btn[data-v-5216ca16]:active {
+    background: linear-gradient(0deg, rgba(102, 92, 153, .16), rgba(102, 92, 153, .16)), linear-gradient(90deg, #ff8642, #ff6262 52.5%, #ff56b1)
+}
+
+.buy[data-v-5216ca16] {
+    border: 1px solid rgba(39, 43, 51, .24);
+    background: #fff
+}
+
+.buy[data-v-5216ca16]:hover {
+    background: rgba(64, 83, 122, .04);
+    border: 1px solid rgba(39, 43, 51, .56)
+}
+
+.buy[data-v-5216ca16]:active {
+    background: rgba(64, 83, 122, .08);
+    border: 1px solid rgba(39, 43, 51, .8)
+}
+
+.base[data-v-5216ca16] {
+    background: #756cf5;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    border: none
+}
+
+.base[data-v-5216ca16]:hover {
+    background: #6962d6
+}
+
+.base[data-v-5216ca16]:active {
+    background: #5c57b7
+}
+
+.primary[data-v-5216ca16] {
+    border: none;
+    background: #fff;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(39, 43, 51, .8)
+}
+
+.primary[data-v-5216ca16]:hover {
+    background: #f7f9fc
+}
+
+.primary[data-v-5216ca16]:active {
+    background: #f0f3fa
+}
+
+.pricing[data-v-5216ca16] {
+    border: none;
+    background: linear-gradient(90deg, #ff8643, #ff6262 52.5%, #ff56b1);
+    color: #fff
+}
+
+.pricing[data-v-5216ca16]:hover {
+    background: linear-gradient(0deg, rgba(102, 92, 153, .08), rgba(102, 92, 153, .08)), linear-gradient(90deg, #ff8642, #ff6262 52.5%, #ff56b1)
+}
+
+.pricing[data-v-5216ca16]:active {
+    background: linear-gradient(0deg, rgba(102, 92, 153, .16), rgba(102, 92, 153, .16)), linear-gradient(90deg, #ff8642, #ff6262 52.5%, #ff56b1)
+}
+
+.pricing-btn[data-v-5216ca16] {
+    background: rgba(64, 83, 122, .08);
+    border: none;
+    border-radius: 100px;
+    color: rgba(39, 43, 51, .8)
+}
+
+.pricing-btn[data-v-5216ca16]:hover {
+    background: rgba(64, 83, 122, .16);
+    border: none
+}
+
+.pricing-btn[data-v-5216ca16]:active {
+    background: rgba(64, 83, 122, .32);
+    border: none
+}
+
+.normal[data-v-5216ca16] {
+    padding: 0;
+    border: 1px solid rgba(26, 26, 31, .16);
+    border-radius: 100px;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(26, 26, 31, .8)
+}
+
+.normal[data-v-5216ca16]:hover {
+    background: hsla(230, 9%, 52%, .04);
+    border: 1px solid rgba(26, 26, 31, .24)
+}
+
+.normal[data-v-5216ca16]:active {
+    background: hsla(230, 9%, 52%, .08);
+    border: 1px solid rgba(26, 26, 31, .24)
+}
+
+.basic[data-v-5216ca16] {
+    border: 1px solid #756cf5;
+    background: #fff
+}
+
+.basic[data-v-5216ca16]:hover {
+    background: rgba(64, 83, 122, .08);
+    border: 1px solid #6962d6
+}
+
+.basic[data-v-5216ca16]:active {
+    background: rgba(64, 83, 122, .16);
+    border: 1px solid #5c57b7
+}
+
+div.el-dialog.editor-direct {
+    background: linear-gradient(90deg, #dceaff, #f5e0fd);
+    box-shadow: 0 8px 24px rgba(39, 43, 51, .16);
+    border-radius: 8px;
+    max-height: 360px;
+    background: url("https://www.media.io/imagesV4/banner/editor_banner.png") no-repeat;
+    background-size: 100%
+}
+
+div.el-dialog.editor-direct .el-dialog__header {
+    display: none
+}
+
+div.el-dialog.editor-direct .el-dialog__body {
+    padding: 0;
+    display: flex;
+    max-height: 360px;
+    height: 45vw;
+    justify-content: space-between
+}
+
+div.el-dialog.editor-direct .el-dialog__body .close {
+    position: absolute;
+    cursor: pointer;
+    top: 4px;
+    right: 8px
+}
+
+div.el-dialog.editor-direct .el-dialog__body .dialog-content {
+    display: flex;
+    padding-left: 56px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1px;
+    width: calc(50% - 56px)
+}
+
+div.el-dialog.editor-direct .el-dialog__body .dialog-content .title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #272b33
+}
+
+div.el-dialog.editor-direct .el-dialog__body .dialog-content .content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(39, 43, 51, .8);
+    margin: 16px 0 40px
+}
+
+div.el-dialog.editor-direct .el-dialog__body .dialog-content button.base {
+    width: 160px;
+    height: 40px
+}
+
+div.el-dialog.editor-direct .el-dialog__body .banner {
+    width: 470px;
+    height: 360px
+}
+
+@media screen and (max-width:800px) {
+    div.el-dialog.editor-direct {
+        width: 100% !important
+    }
+    div.el-dialog.editor-direct div.dialog-content {
+        padding-left: 32px !important;
+        width: calc(50% - 32px) !important
+    }
+    div.el-dialog.editor-direct div.dialog-content div.content {
+        margin: 16px 0 !important
+    }
+}
+
+@media screen and (max-width:450px) {
+    div.el-dialog.editor-direct {
+        display: none
+    }
+}

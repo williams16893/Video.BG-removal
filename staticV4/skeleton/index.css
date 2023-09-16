@@ -1,0 +1,329 @@
+.wsc-header2020-navbar-master {
+    display: none
+}
+
+.upload-container-new {
+    width: 100%;
+    max-width: 1200px;
+    padding: 3rem 2rem;
+    margin: 0 auto
+}
+
+.upload-container-new-small {
+    max-width: 950px
+}
+
+.mediaio-skeleton .skeleton-content {
+    box-shadow: 0 2px 40px 0 rgba(0, 0, 0, .14);
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden
+}
+
+@media(max-width:576px) {
+    #audio-join-box .mediaio-skeleton,
+    #audio-trim-box .mediaio-skeleton,
+    #meme_generator .mediaio-skeleton {
+        display: none
+    }
+}
+
+.mediaio-skeleton .skeleton-tabs {
+    display: none;
+    justify-content: start;
+    align-content: center
+}
+
+.mediaio-skeleton .skeleton-tabs .tabs {
+    display: inline-block;
+    margin: 0;
+    font-size: .9rem;
+    text-transform: inherit !important;
+    border: .125rem solid transparent
+}
+
+#addAudioToVideo .mediaio-skeleton .skeleton-tabs,
+#add_watermark .mediaio-skeleton .skeleton-tabs,
+#audio-join-box .mediaio-skeleton .skeleton-tabs,
+#audio-trim-box .mediaio-skeleton .skeleton-tabs,
+#gif-images-convert-box .mediaio-skeleton .skeleton-tabs,
+#gif-video-convert-box .mediaio-skeleton .skeleton-tabs,
+#image-resize-box .mediaio-skeleton .skeleton-tabs,
+#mergeVideo .mediaio-skeleton .skeleton-tabs,
+#remove_watermark .mediaio-skeleton .skeleton-tabs,
+#reverse-video .mediaio-skeleton .skeleton-tabs,
+#slideshowMarker .mediaio-skeleton .skeleton-tabs,
+#video-loop-box .mediaio-skeleton .skeleton-tabs,
+#video-mute-box .mediaio-skeleton .skeleton-tabs,
+#video-speed-box .mediaio-skeleton .skeleton-tabs {
+    display: flex
+}
+
+@media(max-width:576px) {
+    #addAudioToVideo .mediaio-skeleton .skeleton-tabs,
+    #add_watermark .mediaio-skeleton .skeleton-tabs,
+    #audio-join-box .mediaio-skeleton .skeleton-tabs,
+    #audio-trim-box .mediaio-skeleton .skeleton-tabs,
+    #gif-images-convert-box .mediaio-skeleton .skeleton-tabs,
+    #gif-video-convert-box .mediaio-skeleton .skeleton-tabs,
+    #image-resize-box .mediaio-skeleton .skeleton-tabs,
+    #mergeVideo .mediaio-skeleton .skeleton-tabs,
+    #remove_watermark .mediaio-skeleton .skeleton-tabs,
+    #reverse-video .mediaio-skeleton .skeleton-tabs,
+    #slideshowMarker .mediaio-skeleton .skeleton-tabs,
+    #video-loop-box .mediaio-skeleton .skeleton-tabs,
+    #video-mute-box .mediaio-skeleton .skeleton-tabs,
+    #video-speed-box .mediaio-skeleton .skeleton-tabs {
+        display: none
+    }
+}
+
+#addAudioToVideo .mediaio-skeleton .skeleton-tabs .tabs:last-child,
+#mergeVideo .mediaio-skeleton .skeleton-tabs .tabs:last-child,
+#slideshowMarker .mediaio-skeleton .skeleton-tabs .tabs:last-child {
+    display: none
+}
+
+#audio-join-box .mediaio-skeleton .skeleton-tabs .tabs:last-child,
+#audio-trim-box .mediaio-skeleton .skeleton-tabs .tabs:last-child {
+    display: none
+}
+
+#add_watermark .mediaio-skeleton .skeleton-tabs .tabs:nth-last-child(2),
+#audio-join-box .mediaio-skeleton .skeleton-tabs .tabs:nth-last-child(2),
+#audio-trim-box .mediaio-skeleton .skeleton-tabs .tabs:nth-last-child(2),
+#remove_watermark .mediaio-skeleton .skeleton-tabs .tabs:nth-last-child(2) {
+    display: none
+}
+
+#add_watermark .mediaio-skeleton .skeleton-tabs .tabs:last-child,
+#gif-images-convert-box .mediaio-skeleton .skeleton-tabs .tabs:last-child,
+#gif-video-convert-box .mediaio-skeleton .skeleton-tabs .tabs:last-child,
+#image-resize-box .mediaio-skeleton .skeleton-tabs .tabs:last-child,
+#remove_watermark .mediaio-skeleton .skeleton-tabs .tabs:last-child {
+    display: none
+}
+
+#audio-join-box .mediaio-skeleton .skeleton-tabs .tabs:first-child::after,
+#audio-trim-box .mediaio-skeleton .skeleton-tabs .tabs:first-child::after {
+    content: 'Audio Cutter';
+    visibility: hidden
+}
+
+#audio-join-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after,
+#audio-trim-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after {
+    content: 'Audio Joiner';
+    visibility: hidden
+}
+
+#addAudioToVideo .mediaio-skeleton .skeleton-tabs .tabs:first-child::after,
+#mergeVideo .mediaio-skeleton .skeleton-tabs .tabs:first-child::after,
+#slideshowMarker .mediaio-skeleton .skeleton-tabs .tabs:first-child::after {
+    content: 'Merge Video';
+    visibility: hidden
+}
+
+#addAudioToVideo .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after,
+#mergeVideo .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after,
+#slideshowMarker .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after {
+    content: 'Slideshow Maker';
+    visibility: hidden
+}
+
+#addAudioToVideo .mediaio-skeleton .skeleton-tabs .tabs:nth-child(3)::after,
+#mergeVideo .mediaio-skeleton .skeleton-tabs .tabs:nth-child(3)::after,
+#slideshowMarker .mediaio-skeleton .skeleton-tabs .tabs:nth-child(3)::after {
+    content: 'Add Audio to Video';
+    visibility: hidden
+}
+
+#gif-images-convert-box .mediaio-skeleton .skeleton-tabs .tabs:first-child::after,
+#gif-video-convert-box .mediaio-skeleton .skeleton-tabs .tabs:first-child::after,
+#image-resize-box .mediaio-skeleton .skeleton-tabs .tabs:first-child::after {
+    content: 'Images To GIF';
+    visibility: hidden
+}
+
+#gif-images-convert-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after,
+#gif-video-convert-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after,
+#image-resize-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after {
+    content: 'Video To GIF';
+    visibility: hidden
+}
+
+#gif-images-convert-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(3)::after,
+#gif-video-convert-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(3)::after,
+#image-resize-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(3)::after {
+    content: 'imageResizer';
+    visibility: hidden
+}
+
+#reverse-video .mediaio-skeleton .skeleton-tabs .tabs:first-child::after,
+#video-loop-box .mediaio-skeleton .skeleton-tabs .tabs:first-child::after,
+#video-mute-box .mediaio-skeleton .skeleton-tabs .tabs:first-child::after,
+#video-speed-box .mediaio-skeleton .skeleton-tabs .tabs:first-child::after {
+    content: 'Mute Video';
+    visibility: hidden
+}
+
+#reverse-video .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after,
+#video-loop-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after,
+#video-mute-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after,
+#video-speed-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after {
+    content: 'Video Speed';
+    visibility: hidden
+}
+
+#reverse-video .mediaio-skeleton .skeleton-tabs .tabs:nth-child(3)::after,
+#video-loop-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(3)::after,
+#video-mute-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(3)::after,
+#video-speed-box .mediaio-skeleton .skeleton-tabs .tabs:nth-child(3)::after {
+    content: 'Loop Video';
+    visibility: hidden
+}
+
+#reverse-video .mediaio-skeleton .skeleton-tabs .tabs:last-child::after,
+#video-loop-box .mediaio-skeleton .skeleton-tabs .tabs:last-child::after,
+#video-mute-box .mediaio-skeleton .skeleton-tabs .tabs:last-child::after,
+#video-speed-box .mediaio-skeleton .skeleton-tabs .tabs:last-child:after {
+    content: 'Reverse Video';
+    visibility: hidden
+}
+
+#add_watermark .mediaio-skeleton .skeleton-tabs .tabs:first-child::after,
+#remove_watermark .mediaio-skeleton .skeleton-tabs .tabs:first-child::after {
+    content: 'Add Watermark';
+    visibility: hidden
+}
+
+#add_watermark .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after,
+#remove_watermark .mediaio-skeleton .skeleton-tabs .tabs:nth-child(2)::after {
+    content: 'Remove Watermark';
+    visibility: hidden
+}
+
+.mediaio-skeleton .skeleton-content .skeleton-setting {
+    padding: 10px 1rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #dee2e6
+}
+
+#convert-box .mediaio-skeleton .skeleton-content .skeleton-setting {
+    display: flex
+}
+
+#front-convert .mediaio-skeleton .skeleton-content .skeleton-setting {
+    display: flex
+}
+
+.mediaio-skeleton .skeleton-content .skeleton-setting .convert-text,
+.mediaio-skeleton .skeleton-setting .to-text {
+    width: 56px;
+    height: 21px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px
+}
+
+.mediaio-skeleton .skeleton-content .skeleton-setting .convert-format,
+.mediaio-skeleton .skeleton-setting .to-format {
+    width: 70px;
+    height: 2.375rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px
+}
+
+.mediaio-skeleton .skeleton-content .skeleton-setting .to-format {
+    margin: 0
+}
+
+.mediaio-skeleton .skeleton-content .skeleton-upload {
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.mediaio-skeleton .skeleton-content .upload-desktop {
+    width: calc(100% - 12.3rem);
+    min-width: 220px;
+    max-width: 480px;
+    height: 64px;
+    margin-bottom: 20px;
+    border-radius: 2px
+}
+
+.mediaio-skeleton .skeleton-content .upload-cloud {
+    display: flex
+}
+
+#front-convert .mediaio-skeleton .skeleton-content .upload-cloud,
+#gif-images-convert-box .mediaio-skeleton .skeleton-content .upload-cloud,
+#image-resize-box .mediaio-skeleton .skeleton-content .upload-cloud {
+    display: none
+}
+
+.mediaio-skeleton .skeleton-content .cloud-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px
+}
+
+.mediaio-skeleton .skeleton-content .cloud-item-mx {
+    margin: 0 24px
+}
+
+.mediaio-skeleton .skeleton-content .skeleton-upload-meme {
+    height: 248px;
+    background: #f9f9f9;
+    border: 1px dashed rgba(0, 0, 0, .12);
+    box-sizing: border-box;
+    margin: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.mediaio-skeleton .skeleton-content .skeleton-tryPhoto {
+    height: 256px;
+    padding: 8px 24px 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 46px
+}
+
+.mediaio-skeleton .skeleton-content .skeleton-tryPhoto .tryPhoto-item {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    margin-top: 1.5rem
+}
+
+.mediaio-skeleton .skeleton-animation {
+    background: linear-gradient(90deg, rgba(190, 190, 190, .2) 25%, rgba(129, 129, 129, .24) 37%, rgba(190, 190, 190, .2) 63%);
+    background-size: 400% 100%;
+    animation: skeleton-animation-loading 1.4s ease infinite
+}
+
+@keyframes skeleton-animation-loading {
+    0% {
+        background-position: 100% 50%
+    }
+    to {
+        background-position: 0 50%
+    }
+}
+
+@media (max-width:500px) {
+    .upload-container-new {
+        padding: 3rem 0
+    }
+}

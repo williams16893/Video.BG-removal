@@ -1,0 +1,294 @@
+.wsc-header2022 .wsc-header2020-navbar-link {
+    outline: none !important;
+}
+
+.wsc-header2022,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "HarmonyOS Sans", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    color: initial;
+}
+
+.wsc-header2022 .wondershare-primary-button {
+    background: #7859F6;
+    border: 2px solid #7859F6;
+    color: #FFFFFF;
+    padding: 9px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 0;
+}
+
+.wsc-header2022 .wondershare-default-button {
+    border: 2px solid #7859F6;
+    color: #7859F6;
+    padding: 9px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 0;
+}
+
+.wsc-header2022 .wsc-header2020-navbar-main .wsc-header2020-dropdownMenuBody-box h6 {
+    color: #000000;
+}
+
+.wsc-header2022 .wsc-header2020-navbar-main .wsc-header2020-dropdownMenuBody-box>div:first-child {
+    margin-bottom: 24px;
+}
+
+.wsc-header2022 .wsc-header2020-navbarDropdown-menu .wsc-header2020-dropdown-learnMore {
+    text-align: left;
+}
+
+.wsc-header2022 .wsc-header2020-navbar-nav .wsc-header2020-navbar-item.login nav {
+    padding: 12px 16px;
+}
+
+@media (min-width: 1280px) {
+    .wsc-header2022 {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+    }
+    .wsc-header2022 .wsc-header2020-navbar-main {
+        box-shadow: 0px 0px 16px rgba(39, 43, 51, 0.12);
+    }
+    .wsc-header2022 .wsc-header2020-navbar-main .wsc-header2020-navbar-content {
+        justify-content: space-between;
+    }
+    .wsc-header2022 .wsc-header2020-navbar-main .wsc-header2020-navbar-collapse,
+    .wsc-header2020 .wsc-header2020-navbar-nav {
+        flex: 1 1 auto;
+    }
+    .wsc-header2020 .wsc-header2020-navbar-main .wsc-header2020-navbar-brand {
+        padding: 12px 0;
+        display: flex;
+        align-items: center;
+    }
+    .wsc-header2020 .wsc-header2020-navbar-main .wsc-header2020-navbar-brand .wondershare-logo {
+        width: 104px;
+        height: 48px;
+        background: center / cover no-repeat url(https://neveragain.allstatics.com/2019/assets/icon/logo/wondershare-vertical.svg);
+    }
+    .wsc-header2020 .wsc-header2020-navbar-main .wsc-header2020-navbar-brand a {
+        padding: 0;
+        margin: 0 16px;
+        position: relative;
+        width: 107px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .wsc-header2020 .wsc-header2020-navbar-main .wsc-header2020-navbar-brand a img {
+        margin-left: 0;
+    }
+    .wsc-header2020 .wsc-header2020-navbar-main .wsc-header2020-navbar-brand a:first-child::after {
+        content: '';
+        height: 36px;
+        width: 1px;
+        background: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        right: -12px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .wsc-header2022 .wsc-header2020-navbar-nav {
+        justify-content: space-between;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-menu {
+        width: auto;
+        border-radius: 0px 0px 10px 10px;
+        filter: drop-shadow(0px 6px 20px rgba(0, 0, 0, 0.1));
+        background-color: #FFFFFF;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-menu.online-tool {
+        left: 0%;
+        top: 70px;
+        max-width: 704px;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-menu.desktop-tool {
+        left: 17%;
+        top: 70px;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-menu.support {
+        left: 33%;
+        top: 70px;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-menu .wsc-header2020-container {
+        padding: 32px 0 48px 0;
+        margin: 0 -8px 0 -8px;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-menu.online-tool .wsc-header2020-container {
+        padding: 32px 0 24px 0;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-menu .wsc-header2020-dropdownMenu-content {
+        flex-wrap: wrap;
+    }
+    .wsc-header2022 .wsc-header2020-dropdownMenu-body {
+        padding: 0;
+    }
+    .wsc-header2022 .wsc-header2020-dropdownMenu-body .wsc-header2020-dropdownMenuBody-content {
+        margin: 0;
+    }
+    .wsc-header2022 .wsc-header2020-dropdownMenuBody-item {
+        max-width: none;
+        padding: 0 40px;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-menu.online-tool .wsc-header2020-dropdownMenuBody-item {
+        min-width: 232px;
+    }
+    .wsc-header2022 .wsc-header2020-navbar-main .wsc-header2020-dropdownMenuBody-box {
+        padding: 0;
+    }
+    .wsc-header2022 .wsc-header2020-navbar-main .wsc-header2020-dropdownMenuBody-box>div:first-child {
+        margin-bottom: 40px;
+    }
+    .wsc-header2022 .wsc-header2020-dropdownMenuBody-list {
+        margin: -12px 0;
+    }
+    .wsc-header2022 .wsc-header2020-dropdownMenuBody-list li {
+        padding: 12px 0;
+    }
+    .wsc-header2022 .wsc-header2020-dropdownMenuBody-list li a {
+        position: relative;
+    }
+    .wsc-header2022 .wsc-header2020-dropdownMenuBody-list li a span {
+        width: 32px;
+        height: 14px;
+        position: absolute;
+        right: -15px;
+    }
+    .wsc-header2022 .wsc-header2020-dropdownMenuBody-list li a span img {
+        vertical-align: initial;
+    }
+    .wsc-header2022 .wsc-header2020-dropdownMenuBody-list li a span.dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: 0;
+        background: linear-gradient(165.96deg, #FF0000 10%, #FF0000 95%);
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-menu .wsc-header2020-dropdown-learnMore {
+        border: 0;
+        padding: 24px 40px 0 0;
+        text-align: right;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-toggle span {
+        position: relative;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-toggle[aria-expanded="true"] span,
+    .wsc-header2022 .wsc-header2020-navbar-main .wsc-header2020-navbarDropdown-toggle:hover span {
+        color: #7859F6;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-toggle[aria-expanded="true"] .wsc-header2020-dropdown-icon,
+    .wsc-header2022 .wsc-header2020-navbar-main .wsc-header2020-navbarDropdown-toggle:hover .wsc-header2020-dropdown-icon {
+        color: #7859F6;
+    }
+    .wsc-header2022 .wsc-header2020-navbar-linkBtn {
+        margin: 0 0 0 16px;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-toggle::before {
+        background-color: transparent;
+        content: none;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-toggle svg {
+        display: block;
+    }
+    .wsc-header2020 .wsc-header2020-navbar-main .wsc-header2020-navbar-item .wsc-header2020-navbar-link:hover {
+        color: #7859F6;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-toggle {
+        padding: 26px 0 26px 24px;
+    }
+    .wsc-header2022 .wsc-header2020-navbarDropdown-menu {
+        max-height: 0;
+        opacity: 0;
+        transition: opacity .3s ease;
+    }
+    .wsc-header2022 .wsc-header2020-navbar-dropdown:hover .wsc-header2020-navbarDropdown-menu {
+        max-height: 200vh;
+        opacity: 1;
+    }
+    .wsc-header2020 .wsc-header2020-navbar-main .wsc-header2020-navbar-brand img {
+        margin-left: 16px;
+    }
+    .wsc-header2022 .wsc-header2020-navbar-nav .wsc-header2020-navbar-item.login {
+        padding: 0 16px;
+    }
+    .wsc-header2022 .wsc-header2020-navbar-nav .wsc-header2020-navbar-item.login nav {
+        padding: 0;
+    }
+    .wsc-header2020-navbar-link.pricing-btn {
+        width: 136px;
+        height: 38px;
+        background: rgba(64, 83, 122, 0.08);
+        border-radius: 100px;
+        color: rgba(39, 43, 51, 0.8);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wsc-header2020-navbar-link.pricing-btn:hover {
+        background: rgba(64, 83, 122, 0.16);
+        color: rgba(39, 43, 51, 0.8);
+    }
+    .wsc-header2020-navbar-link.pricing-btn:active {
+        background: rgba(64, 83, 122, 0.32);
+    }
+    .wsc-header2020-navbar-link:hover {
+        color: rgba(39, 43, 51, 0.8) !important;
+    }
+    .img-fluid {
+        margin-right: 0.5rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .wsc-header2022 .wsc-header2020-navbar-nav .wsc-header2020-navbar-item.login .Show960 a {
+        display: inline-block !important;
+        border: 0 !important;
+        width: auto !important;
+        margin: 0 16px 0 0 !important;
+        text-decoration: none;
+    }
+}
+
+.wsc-footer2020 .wsc-footer202004-top .wsc-footer2020-nav .wsc-footer2020-nav-logo {
+    width: 136px;
+}
+
+.wsc-footer2020 .wsc-footer202004-top .wsc-footer2020-nav ul {
+    padding-top: 24px;
+}
+
+.wsc-footer2020 .wsc-footer2020-nav {
+    padding: 16px 0 8px 0;
+}
+
+@media (min-width: 1280px) {
+    .wsc-footer2020 .wsc-footer2020-nav {
+        padding: 8px 0;
+    }
+    .wsc-footer2020 .wsc-footer202004-top .wsc-footer2020-nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .wsc-footer2020.wsc-footer2021 .wsc-footer202004-top .wsc-footer2020-dropdown:nth-child(4) .wsc-footer2020-subnav-item {
+        padding: 8px 0;
+    }
+}
